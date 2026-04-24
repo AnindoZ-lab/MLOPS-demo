@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+.github/
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+*.parquet
+
+# Models (comment out if you want to include pre-trained model)
+# models/*.joblib
+# models/*.pkl
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# Environment
+.env
+.env.local
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Others
+*.bak
+*.tmp
